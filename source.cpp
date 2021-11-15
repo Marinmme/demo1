@@ -41,7 +41,8 @@ cout << "Nhap so nguyen : ";
 		cout<<ChanLe<<"So Chan";
 	else
 		cout<<ChanLe<<"So Le";
-//cau19
+//cau19..
+
 
 	system("pause");
 	return 0;
