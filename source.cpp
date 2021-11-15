@@ -9,12 +9,14 @@ int hieu(int a, int b){
 int tich(int a, int b){
 	return a*b;
 }
+
 <<<<<<< HEAD
 =======
 
 >>>>>>> tich
 int main()
 {
+	int ChanLe();
 	int a, b;
 	char phepToan;
 	cout << "Nhap so nguyen 1: ";
@@ -33,7 +35,12 @@ int main()
 	if(phepToan == '*')
 >>>>>>> tich
 		cout<<"Tich="<< tich(a,b)<<endl;
-
+cout << "Nhap so nguyen : ";
+	cin >> ChanLe;
+	if(ChanLe%2==0)
+		cout<<ChanLe<<"So Chan";
+	else
+		cout<<ChanLe<<"So Le";
 //cau19
 
 	system("pause");
