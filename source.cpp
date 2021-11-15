@@ -6,7 +6,9 @@ int tong(int a, int b){
 int hieu(int a, int b){
 	return a-b;
 }
-
+int tich(int a, int b){
+	return a*b;
+}
 int main()
 {
 	int a, b;
@@ -20,7 +22,9 @@ int main()
 	if(phepToan == '+')
 		cout<<"Tong="<< tong(a,b)<<endl;
 	if(phepToan == '-')
-		cout<<"Hieu="<< tong(a,b)<<endl;
+		cout<<"Hieu="<< hieu(a,b)<<endl;
+	if(phepToan == '-')
+		cout<<"Tich="<< tich(a,b)<<endl;
 
 
 
