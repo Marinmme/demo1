@@ -20,7 +20,7 @@ int main()
 	if(phepToan == '+')
 		cout<<"Tong="<< tong(a,b)<<endl;
 	if(phepToan == '-')
-		cout<<"Tong="<< tong(a,b)<<endl;
+		cout<<"Hieu="<< tong(a,b)<<endl;
 
 
 
