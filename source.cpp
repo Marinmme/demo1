@@ -34,7 +34,7 @@ int main()
 >>>>>>> tich
 		cout<<"Tich="<< tich(a,b)<<endl;
 
-
+//cau19
 
 	system("pause");
 	return 0;
