@@ -6,6 +6,9 @@ int tong(int a, int b){
 int hieu(int a, int b){
 	return a-b;
 }
+int tich(int a, int b){
+	return a*b;
+}
 
 int main()
 {
@@ -15,12 +18,14 @@ int main()
 	cin >> a;
 	cout << "Nhap so nguyen 2: ";
 	cin >> b;
-	cout << "\Chon phep toan(+,-) " ;
+	cout << "\Chon phep toan(+,-,*) " ;
 	cin phepToan;
 	if(phepToan == '+')
 		cout<<"Tong="<< tong(a,b)<<endl;
 	if(phepToan == '-')
-		cout<<"Hieu="<< tong(a,b)<<endl;
+		cout<<"Hieu="<< hieu(a,b)<<endl;
+	if(phepToan == '*')
+		cout<<"Tich="<< tich(a,b)<<endl;
 
 
 
